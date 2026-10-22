@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ClienteOperacion {
-    private List<Cliente> clientes;
+    private final List<Cliente> clientes;
 
     public ClienteOperacion() {
         clientes = new ArrayList<>();
